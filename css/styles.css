@@ -11,7 +11,7 @@ nav {
 main {
     background-color:  #fff;
     width: 100%;
-    height: 633px;
+    height: auto;
 }
 
 header {
@@ -84,10 +84,15 @@ h2.footer-wrapper-beneden {
 
 .main-links {
     background-color: green;
-    height: 100%;
+    height: 80%;
     width: 50%;
     margin-left: 10%;
+    margin-top: 5%;
     /* margin-top werkt niet hij neemt hele div mee en padding werkt ook niet, vraag aan docent */
+}
+
+.clear {
+    clear: both;
 }
 
 .h1-main {
