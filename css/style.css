@@ -1,0 +1,255 @@
+body, html {
+  margin: 0px;
+}
+
+nav {
+  background-color: #2f2fa2;
+  width: 100%;
+  height: 120px;
+}
+
+main {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #242582;
+  width: 100%;
+  height: 633px;
+}
+
+footer {
+  background-color: #2f2fa2;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-wrapper-boven {
+  width: 100%;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-wrapper-beneden {
+  width: 50%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2.footer-wrapper-beneden {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  margin-left: 29%;
+  margin-top: 6%;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.footer-links {
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin-top: 2.1%;
+  margin-left: 10%;
+}
+
+.footer-midden {
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin-top: 2.1%;
+  margin-left: 1.5%;
+}
+
+.footer-rechts {
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin-top: 2.1%;
+  margin-left: 1.5%;
+}
+
+.h1-footer {
+  color: white;
+  font-weight: normal;
+}
+
+.main-rechts {
+  height: 634px;
+  width: 475.5px;
+}
+
+.main-links {
+  height: 80%;
+  width: 50%;
+  margin-left: 10%;
+  /* margin-top werkt niet hij neemt hele div mee en padding werkt ook niet, vraag aan docent */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.h1-main {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  padding-top: 18%;
+  margin: 0px;
+}
+
+.main-paragraph-wrapper {
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  height: auto;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+/*h1.header-wrapper {
+    margin-top: 0px;
+    color: white;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+}*/
+.header-wrapper {
+  width: 80%;
+  height: 100%;
+  background-color: #242582;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  width: 90%;
+  height: 90%;
+  margin: 0px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links {
+  width: 25%;
+  height: 87%;
+  float: left;
+  padding-top: 1.5%;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+.nav-rechts {
+  width: 30%;
+  height: 87%;
+  float: right;
+  padding-top: 1.5%;
+  font-family: 'Montserrat', sans-serif;
+  color: #242582;
+}
+
+.nav-midden {
+  width: 28%;
+  height: 87%;
+  float: right;
+  padding-top: 1.2%;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+#img-nav {
+  float: left;
+  margin-left: 16%;
+}
+
+.h1-nav {
+  font-size: 30px;
+}
+
+a {
+  color: gray;
+  font-weight: lighter;
+}
+
+/*Unvisited link*/
+a:visited {
+  color: gray;
+  font-weight: lighter;
+}
+
+/*Visited link*/
+a:hover {
+  color: #5c5b5b;
+  font-weight: lighter;
+}
+
+/*Mouse over link*/
+a:active {
+  color: gray;
+  font-weight: lighter;
+}
+
+/*Selected link*/
+#GFG {
+  /* underline weghalen*/
+  text-decoration: none;
+}
+
+/*Eerst volgende paar codes is voor dropdown*/
+.dropbtn {
+  background-color: #242582;
+  color: white;
+  padding: 16px;
+  margin-top: 11%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1b1c6b;
+}
+
+/*Hier stopt de dropdown*/
+/*# sourceMappingURL=style.css.map */
