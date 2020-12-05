@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/myScript.js"></script>
     <title>Portfolio - Yigit Findik</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
@@ -20,13 +21,17 @@
 
             <div class="nav-rechts">
                 <div class="dropdown" style="float:right;">
-                    <button class="dropbtn">MENU</button>
-                    <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="#">-</a>
-                    <a href="contact.html">Contact</a>
-                    </div>
+                    <button button onclick="myFunction()" class="dropbtn">MENU</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="index.html">Home</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                  </div>
+                  <div class="nav-tab">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
                   </div>
             </div>
 
@@ -49,9 +54,10 @@
     
     <main>
         <div class="main-links left">
-            <h1 class="h1-main">Hello</h1>
+            <h1 class="h1-main">About me</h1>
             <div class="main-paragraph-wrapper">
-                <p>My name is Yigit Findik, i'm a junior programmer i have a passion
+                <p> 
+                    My name is Yigit Findik, i'm a junior programmer i have a passion
                     for both front-end as back-end. My hobbies are learning
                     new technologies and programming languages. I prioritize
                     quality over quantity, being able to create neat work will
@@ -82,28 +88,16 @@
 
             <div class="footer-midden">
                 <h1 class="h1-footer">
-                    Contacts
+                    Contact
                 </h1>
                 <p>
-                    <a id="GFG" href="https://www.instagram.com/">Instagram</a>
+                    <a id="GFG" href="mailto:0190775@student.roc-nijmegen.nl">Email</a>
                 </p>
                 <p>
-                    <a id="GFG" href="https://www.linkedin.com/in/yigit-findik-128b661b5/">LinkedIn</a>
+                    <a id="GFG" href="contact.html">Contact Form</a>
                 </p>
             </div>
-
-            <div class="footer-midden">
-                <h1 class="h1-footer">
-                    Location
-                </h1>
-                <p>
-                    <a id="GFG" href="https://www.instagram.com/">Instagram</a>
-                </p>
-                <p>
-                    <a id="GFG" href="https://www.linkedin.com/in/yigit-findik-128b661b5/">LinkedIn</a>
-                </p>
-            </div>
-
+   
             <div class="footer-rechts">
                 <h1 class="h1-footer">
                     Menu
@@ -113,12 +107,6 @@
                 </p>
                 <p>
                     <a id="GFG" href="#">Portfolio</a>
-                </p>
-                <p>
-                    <a id="GFG" href="#">Derde</a>
-                </p>
-                <p>
-                    <a id="GFG" href="#">Vierde</a>
                 </p>
                 <p>
                     <a id="GFG" href="#">Contact</a>
