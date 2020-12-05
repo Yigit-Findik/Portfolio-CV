@@ -158,14 +158,19 @@ h2.footer-wrapper-beneden {
 }
 
 .nav-tab {
-    width: 90%;
-    height: 90px;
+    width: 60%;
+    height: 50px;
+    padding-top: 20px;
+    float: right;
+}
+
+#U-Remover {
+    text-decoration: none !important;
 }
 
 .nav-tab a {
     color: white;
-    padding: 5px;
-    
+    padding: 7.5px;
 }
 
 .nav-tab a:visited {
@@ -177,8 +182,8 @@ h2.footer-wrapper-beneden {
 }
 
 .nav-tab a:active {
-
-}
+    color: white;
+    }
 
 .nav-rechts {
     width: 30%;
