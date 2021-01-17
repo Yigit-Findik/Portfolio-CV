@@ -9,26 +9,15 @@ nav {
   height: 120px;
 }
 
-main {
-  background-color: #fff;
-  width: 100%;
-  height: auto;
+.main-mobile-picture {
+  display: none;
 }
 
-header {
-  background-color: #242582;
-  width: 100%;
-  height: 633px;
-}
-
+/*Alle footer elementen zijn hier voor zijn plaats en site layout*/
 footer {
   background-color: #2f2fa2;
   width: 100%;
   height: 400px;
-}
-
-.main-mobile-picture {
-  display: none;
 }
 
 .footer-wrapper-boven {
@@ -83,6 +72,13 @@ footer {
   font-weight: normal;
 }
 
+/*Dit is voor elke elementen voor de main */
+main {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
 .main-rechts {
   height: 634px;
   width: 475.5px;
@@ -92,18 +88,6 @@ footer {
   height: 80%;
   width: 50%;
   margin-left: 10%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.clear {
-  clear: both;
 }
 
 .h1-main {
@@ -121,12 +105,13 @@ footer {
   font-weight: lighter;
 }
 
-/*h1.header-wrapper {
-    margin-top: 0px;
-    color: white;
-    margin-left: 35%;
-    font-family: 'Montserrat', sans-serif;
-}*/
+/*dit stukje komt alle elementen van de header classes */
+header {
+  background-color: #242582;
+  width: 100%;
+  height: 633px;
+}
+
 .header-wrapper {
   width: 80%;
   height: 100%;
@@ -135,6 +120,53 @@ footer {
   margin-right: auto;
 }
 
+.header-box-middle {
+  width: 800px;
+  height: 100%;
+  margin-left: 225px;
+}
+
+.header-name-wrapper {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+.header-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+  margin-left: 50px;
+  margin-top: 100px;
+  color: white;
+}
+
+.header-text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-left: 155px;
+}
+
+/*h1.header-wrapper {
+    margin-top: 0px;
+    color: white;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+}*/
+/*Dit stukje is ook voor layout voor als je right gebruikt gaat de element naar rechts en left naar links, spreekt voor zich
+ en is voor me zelf gebruikbaar mocht ik dit zo willen doen*/
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+/*Navigatie css elementen voor de layout */
 .nav-container {
   width: 90%;
   height: 90%;
@@ -205,9 +237,11 @@ footer {
 }
 
 .h1-nav {
+  margin-top: 20px;
   font-size: 30px;
 }
 
+/*deze css tags van anchor heb ik speciale kleuren gegeven zodat ze er beter uit zien bij mijn footer anchor tags en in blenden*/
 a {
   color: gray;
   font-weight: lighter;
@@ -233,10 +267,10 @@ a:active {
 
 /*Selected link*/
 #GFG {
-  /* underline weghalen*/
   text-decoration: none;
 }
 
+/* underline weghalen*/
 /*Eerst volgende paar codes is voor dropdown*/
 /* Dropdown Button */
 .dropbtn {
@@ -293,7 +327,9 @@ a:active {
   display: block;
 }
 
-/*Hier stopt de dropdown*/
+/*dit stukje code is voor media queries, ik heb voor nu alleen voor telefoons met 600pixels of minder compatible gemaakt
+ dat betekent dat voor telefoons onder de 600pixels wijd mooier de site kunnen zien ipv compressed plus elke element die 
+ in deze website word gebruikt word hier herhaald maar dan gewijzigd */
 @media only screen and (max-width: 600px) {
   nav {
     background-color: #2f2fa2;
@@ -307,8 +343,8 @@ a:active {
   #img-nav {
     float: left;
     padding-left: 25%;
-    width: 75px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
   }
   .nav-tab {
     display: none;
