@@ -435,6 +435,7 @@ a:active {
     width: 20%;
     height: 70%;
     float: left;
+    padding-top: 8px;
     margin-top: 2.1%;
     margin-left: 10%;
   }
@@ -442,6 +443,7 @@ a:active {
     width: 20%;
     height: 70%;
     float: left;
+    padding-top: 8px;
     margin-top: 2.1%;
     margin-left: 10%;
   }
@@ -449,6 +451,7 @@ a:active {
     width: 20%;
     height: 70%;
     float: left;
+    padding-top: 8px;
     margin-top: 2.1%;
     margin-left: 10%;
   }
@@ -469,10 +472,40 @@ a:active {
     height: 260px;
     font-family: 'Montserrat', sans-serif;
   }
+  /*Hier begint de media querries voor header elements*/
+  header {
+    background-color: #242582;
+    width: 100%;
+    height: 633px;
+  }
   .header-wrapper {
     width: 80%;
     height: 100%;
     background-color: #242582;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-box-middle {
+    margin-left: 25px;
+    width: 250px;
+    height: 100%;
+  }
+  .header-name-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+  }
+  .header-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    margin-left: 11.5px;
+    margin-top: 100px;
+    color: white;
+  }
+  .header-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-left: 11.5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
