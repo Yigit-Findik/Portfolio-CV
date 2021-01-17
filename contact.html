@@ -1,27 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-
-    <!--Dit is de code die je in de tekst css doet, 
-        font-family: 'Montserrat', sans-serif;-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" 
-    rel="stylesheet">
-
-    <link rel="stylesheet" href="css/contact.css">
-</head>
+    <head>
+        <!--Dit zijn alle benodigdheden voor mijn site zoals de link tag om fotos/css/fonts in mijn site te stoppen-->
+        <!--meta tags zijn voor website responsive te hebben dus ook voor mobile kan worden gebruikt en script is voor js connectie-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/myScript.js"></script>
+        <title>Portfolio - Yigit Findik</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" href="img/yigit.png">
+    </head>
 <body>
+        <!--Navigatie items-->
+    <nav>
+        <div class="nav-container">
+
+            <div class="nav-links">
+                <h1 class="h1-nav">Portfolio - CV</h1>
+            </div>
+
+            <div class="nav-rechts">
+                <div class="dropdown" style="float:right;">
+                    <button button onclick="myFunction()" class="dropbtn">MENU</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="index.html">Home</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                </div>
+                <div class="nav-tab">
+                        <a id="U-Remover" href="index.html">Home</a>
+                        <a id="U-Remover" href="portfolio.html">Portfolio</a>
+                        <a id="U-Remover" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="nav-midden">
+                <a href=""><img id="img-nav" src="img/universe.png" width="25%" alt="logo"></a>
+            </div>
+
+        </div>
+    </nav>
+
     <main>
-        <form class="contact-form" action="contactform.php" method="post">
+        <div class="contact-main">
+          <!--<form class="contact-form" action="contactform.php" method="post">
             <input type="text" name="name" placeholder="Full name">
             <input type="text" name="mail" placeholder="Your e-mail">
             <input type="text" name="subject" placeholder="Subject">
             <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit">SEND MAIL</button>
-        </form>
+            <button type="submit" name="submit">SEND EMAIL</button>
+        </form>-->  
+        </div>
+        
     </main>
+
+
+    <!--Footer items-->
+
+    <footer>
+        <div class="footer-wrapper-boven">
+            <div class="footer-links">
+                <h1 class="h1-footer">
+                    Socials
+                </h1>
+                <p>
+                    <a id="GFG" href="https://www.instagram.com/">Instagram</a>
+                </p>
+                <p>
+                    <a id="GFG" href="https://www.linkedin.com/in/yigit-findik-128b661b5/">LinkedIn</a>
+                </p>
+            </div>
+
+            <div class="footer-midden">
+                <h1 class="h1-footer">
+                    Contact
+                </h1>
+                <p>
+                    <a id="GFG" href="mailto:0190775@student.roc-nijmegen.nl">Email</a>
+                </p>
+                <p>
+                    <a id="GFG" href="contact.html">Contact Form</a>
+                </p>
+            </div>
+   
+            <div class="footer-rechts">
+                <h1 class="h1-footer">
+                    Menu
+                </h1>
+                <p>
+                    <a id="GFG" href="index.html">Home</a>
+                </p>
+                <p>
+                    <a id="GFG" href="#">Portfolio</a>
+                </p>
+                <p>
+                    <a id="GFG" href="#">Contact</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-wrapper-beneden">
+            <h2 class="footer-wrapper-beneden">Copyright © 2020 All Rights Reserved</h2>
+        </div> 
+    </footer>
+
 </body>
 </html>
