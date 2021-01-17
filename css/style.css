@@ -100,10 +100,35 @@ main {
   margin-left: 10%;
 }
 
-.main-portfolio-name {
+.main-portfolio-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 150px;
+  margin-left: 12.5%;
+  margin-top: 7.5%;
+}
+
+.main-portfolio-text h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 42.5%;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.portfolio-link {
+  color: white;
+}
+
+.portfolio-link a {
+  text-decoration: none;
+}
+
+.main-portfolio-text {
   padding-top: 20px;
-  background-color: gray;
-  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
   height: 400px;
 }
 
