@@ -75,7 +75,7 @@ main {
 }
 
 .main-table-placeholder {
-    background-color: #171861;
+    background-color: #242582;
     width: 100%;
     height: 625px;
 }
@@ -98,6 +98,18 @@ main {
 .table {
     margin-top: 7.5%;
 }
+
+table thead tr th, table tbody tr th {
+    color: white;
+}
+
+table tbody tr td {
+    color: #c0c0c0c0;
+}
+
+/*Hier eindigt de tabel*/
+
+
 
 .main-rechts {
     height: 634px;
