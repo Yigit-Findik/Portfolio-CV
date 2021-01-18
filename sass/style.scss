@@ -187,6 +187,7 @@ table tbody tr td {
     font-weight: lighter;
 }
 
+/*elementen voor de contact form*/
 .main-contact {
     width: 80%;
     height: 100%;
@@ -720,4 +721,31 @@ a:active {
         width: 75%;
         height: 400px;
     }
+
+    
+.main-contact {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: 7.5%;
+    margin-left: 12.5%;
+}
+
+.contact-form {
+    width: 75%;
+    margin-top: 20%;
+    margin-left: 12.5%;
+}
+
+label {
+    color: white;
+}
+
   }
