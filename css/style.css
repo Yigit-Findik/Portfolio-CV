@@ -116,7 +116,7 @@ table tbody tr td {
 .main-blank {
   background-color: #242582;
   width: 100%;
-  height: 638px;
+  height: 754px;
 }
 
 .main-portfolio {
@@ -180,6 +180,34 @@ table tbody tr td {
   height: auto;
   line-height: 1.6;
   font-weight: lighter;
+}
+
+.main-contact {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-contact h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 125px;
+  padding-top: 7.5%;
+  margin-left: 12.5%;
+}
+
+.contact-form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  resize: none;
 }
 
 /*dit stukje komt alle elementen van de header classes */
